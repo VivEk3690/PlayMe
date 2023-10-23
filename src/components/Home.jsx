@@ -10,7 +10,6 @@ const Home = () => {
 
 
   useEffect(() => {
-      console.log(selectVideoCategory)
     setVideos([]);
 
     callRapidAPI(`search?part=snippet&q=${selectVideoCategory}`).then((data) =>
