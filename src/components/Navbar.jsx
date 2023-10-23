@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Box, Stack } from "@mui/material";
+import {Link} from "react-router-dom";
+import {Stack} from "@mui/material";
 import playMeLogo from "../assets/images/playMe.png";
 import SearchBar from "./SearchBar";
 
